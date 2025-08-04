@@ -1,0 +1,14 @@
+---
+title: "Data Infrastructure Group @ Smith"
+image: profile.jpg
+page-layout: full
+title-block-banner: true
+---
+
+About
+
+the same statement as is on the homepage, but with more text on it.
+
+PI:
+
+-   LAB FRIENDS GO HERE/

@@ -1,0 +1,19 @@
+---
+title: "Data Infrastructures Group - Content Archive"
+about:
+  template: jolla
+listing:
+  id: sample-listings
+  categories: false
+  contents: posts
+  sort: "date desc"
+  type: grid
+  sort-ui: false
+  filter-ui: false
+  fields: [image, title, categories]
+---
+
+#### Lately
+
+::: {#sample-listings}
+:::

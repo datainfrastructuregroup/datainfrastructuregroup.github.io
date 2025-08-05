@@ -1,9 +1,65 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About DIG",
+    "section": "",
+    "text": "We are an interdisciplinary research group that uses computational and humanistic methods to study and practice restorative/transformative data science.\n\nPrincipal Investigator\n\nNikko Stevens\nIf you’d like to join the lab, we’re currently recruiting student researchers."
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Data Infrastructures Group - Content Archive",
+    "section": "",
+    "text": "Lately\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content.html",
+    "href": "content.html",
+    "title": "Data Infrastructure Group @ Smith",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 4, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "collaborate.html",
+    "href": "collaborate.html",
+    "title": "Work With Us",
+    "section": "",
+    "text": "Community Organizations\nIf you are a community organization or non-profit and you’d like to partner with us, please reach out. We are always looking for ways to support community organizations through research, policy support, and restorative/transformative data science.\n\n\nStudent Researchers\nIf you’re a current or incoming Smith student, please reach out to learn about working with us. We’re especially interested in students with the following interests / majors.\n\nprogramming / computer science major\ndata science / SDS or math major\ntranslation / Spanish major\nvisual designer or cartoonist / art major\nwriting / English major\n\nEmail Nikko with your CV."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Active Research Projects",
+    "section": "",
+    "text": "Fall 2025: We’re for all of these projects. Find out more\n\n\n\n\n\n\n\nLiberatory AI Think Tank\nFounded by Nikko Stevens and Catherine D’Ignazio (MIT), the Liberatory AI Think Tank is a collective of over 40 researchers studying ways of making with and about AI outside of corporate capture.\n\n\nCarceral Technology History\nWe are producing a deeply researched inventory of key forms of carceral technology developed in the United States over the last 70 years\n\n\nRestorative and Transformative Data Science: Case Studies\nThrough interviews with local activists and policy makers, we are studying the possibilities of activist data science in local municipalities"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "papers.html",
+    "href": "papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Papers\none\ntwo\nthree\nfour"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Data Infrastructure Group",
+    "title": "DIG @ Smith",
     "section": "",
-    "text": "We are an interdisciplinary research group that uses computational and humanistic methods to study and practice restorative/transformative data science."
+    "text": "We are an interdisciplinary research group that uses computational and humanistic methods to study and practice restorative and transformative data science."
   }
 ]

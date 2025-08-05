@@ -1,33 +1,20 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "DIGSite"
+  title: "Data Infrastructure Group"
   description: "We investigate the infrastructures powering the data that powers the world."
   navbar:
     right:
-      - text: About
-        href: about.qmd
       - text: Research
         href: research.qmd
+      - text: Work With Us
+        href: collaborate.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
-      - icon: rss
-        href: blog.xml
-      - text: Ressources
-        menu: 
-          - text: DataViz Portfolio
-            href: dataviz_portfolio.html
-          - text: YARDS
-            href: https://yards.albert-rapp.de/
-          - text: R Weekly
-            href: https://rweekly.org/
-          - text: R Bloggers
-            href: https://www.r-bloggers.com/
-      - text: Archive
-        href: archive.qmd
+        href: https://github.com/datainfrastructuregroup
+
+
   google-analytics: <Insert your ID here>
   cookie-consent: true
 
@@ -35,8 +22,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - united
     css: includes/styles.css
 
 editor: visual

@@ -1,1 +1,20 @@
+---
+title: "Active Research Projects"
+image: profile.jpg
+---
 
+::: callout-important
+## Fall 2025: We're for all of these projects. [Find out more](collaborate.qmd)
+:::
+
+#### Liberatory AI Think Tank
+
+Founded by Nikko Stevens and [Catherine D'Ignazio](https://dusp.mit.edu/people/catherine-dignazio) (MIT), the Liberatory AI Think Tank is a collective of over 40 researchers studying ways of making with and about AI outside of corporate capture.
+
+#### Carceral Technology History
+
+We are producing a deeply researched inventory of key forms of carceral technology developed in the United States over the last 70 years
+
+#### Restorative and Transformative Data Science: Case Studies
+
+Through interviews with local activists and policy makers, we are studying the possibilities of activist data science in local municipalities

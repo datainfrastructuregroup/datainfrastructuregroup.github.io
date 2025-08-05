@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>DIG @ Smith – Data Infrastructure Group</title>
+<title>Active Research Projects – Data Infrastructure Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,6 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -117,7 +118,7 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -142,22 +143,56 @@ cookieconsent.run({
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">DIG @ Smith</h1>
+<h1 class="title">Active Research Projects</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><main class="content" id="quarto-document-content">
-<div id="mission">
-<p>We are an interdisciplinary research group that uses <em>computational and humanistic</em> methods to study and practice <em>restorative and transformative data science</em>.</p>
-</div>
+  
 
 
-</main>  
+</header>
+
+
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
- <!-- /main -->
+<div class="callout-title-container flex-fill">
+Fall 2025: We’re for all of these projects. <a href="./collaborate.html">Find out more</a>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<section id="liberatory-ai-think-tank" class="level4">
+<h4 class="anchored" data-anchor-id="liberatory-ai-think-tank">Liberatory AI Think Tank</h4>
+<p>Founded by Nikko Stevens and <a href="https://dusp.mit.edu/people/catherine-dignazio">Catherine D’Ignazio</a> (MIT), the Liberatory AI Think Tank is a collective of over 40 researchers studying ways of making with and about AI outside of corporate capture.</p>
+</section>
+<section id="carceral-technology-history" class="level4">
+<h4 class="anchored" data-anchor-id="carceral-technology-history">Carceral Technology History</h4>
+<p>We are producing a deeply researched inventory of key forms of carceral technology developed in the United States over the last 70 years</p>
+</section>
+<section id="restorative-and-transformative-data-science-case-studies" class="level4">
+<h4 class="anchored" data-anchor-id="restorative-and-transformative-data-science-case-studies">Restorative and Transformative Data Science: Case Studies</h4>
+<p>Through interviews with local activists and policy makers, we are studying the possibilities of activist data science in local municipalities</p>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -178,6 +213,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

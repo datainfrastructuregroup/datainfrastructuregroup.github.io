@@ -1,8 +1,0 @@
----
-title: "DIG - Hiring"
-image: profile.jpg
-page-layout: full
-title-block-banner: true
----
-
-This is where I identify the kinds of students that I'm looking to work with.

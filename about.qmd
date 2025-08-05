@@ -1,14 +1,15 @@
 ---
-title: "Data Infrastructure Group @ Smith"
+title: "About DIG"
 image: profile.jpg
-page-layout: full
-title-block-banner: true
 ---
 
-About
+::: {#mission}
+We are an interdisciplinary research group that uses *computational and humanistic* methods to study and practice *restorative/transformative data science*.
+:::
 
-the same statement as is on the homepage, but with more text on it.
+**Principal Investigator**
 
-PI:
+![](images/Stevens-headshot.JPG){width="150"}\
+[Nikko Stevens](http://www.nikkostevens.com)
 
--   LAB FRIENDS GO HERE/
+If you'd like to join the lab, [we're currently recruiting student researcher](collaborate.qmd)

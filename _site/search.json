@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Data Infrastructures Group",
+    "title": "Data Infrastructure Group",
     "section": "",
-    "text": "We are an interdisciplinary group that uses computational and humanistic methods to:\n\ninvestigate the ideological compoents of data infrastructures.\nDo a second thing\nAnd a third thing\n\n\n\nso that we can build humane technology or other thing.\n\n\n\nLately\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nNo matching items"
+    "text": "We are an interdisciplinary research group that uses computational and humanistic methods to study and practice restorative/transformative data science."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -23,9 +23,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Data Infrastructure Group @ Smith",
+    "title": "About DIG",
     "section": "",
-    "text": "About\nthe same statement as is on the homepage, but with more text on it.\nPI:\n\nLAB FRIENDS GO HERE/"
+    "text": "We are an interdisciplinary research group that uses computational and humanistic methods to study and practice restorative/transformative data science.\n\nPrincipal Investigator\n\nNikko Stevens\nIf you’d like to join the lab, we’re currently recruiting student researchers."
   },
   {
     "objectID": "content.html",
@@ -44,8 +44,29 @@
   {
     "objectID": "hiring.html",
     "href": "hiring.html",
-    "title": "DIG - Hiring",
+    "title": "Student Research Openings",
     "section": "",
-    "text": "This is where I identify the kinds of students that I’m looking to work with."
+    "text": "We are currently recruiting undergraduate student researchers!\nReach out if you’re interested in our current research and have any of the following skills or interests:\n\nprogramming / computer science major\ndata science / SDS or math major\ntranslation / Spanish major\nvisual designer / art major\nwriting / English major\n\nEmail Nikko with your CV."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Active Research Projects",
+    "section": "",
+    "text": "Fall 2025: We’re for all of these projects. Find out more\n\n\n\n\n\n\n\nLiberatory AI Think Tank\nFounded by Nikko Stevens and Catherine D’Ignazio (MIT), the Liberatory AI Think Tank is a collective of over 40 researchers studying ways of making with and about AI outside of corporate capture.\n\n\nCarceral Technology History\nWe are producing a deeply researched inventory of key forms of carceral technology developed in the United States over the last 70 years\n\n\nRestorative and Transformative Data Science: Case Studies\nThrough interviews with local activists and policy makers, we are studying the possibilities of activist data science in local municipalities"
+  },
+  {
+    "objectID": "papers.html",
+    "href": "papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Papers\none\ntwo\nthree\nfour"
+  },
+  {
+    "objectID": "collaborate.html",
+    "href": "collaborate.html",
+    "title": "Work With Us",
+    "section": "",
+    "text": "Community Organizations\nIf you are a community organization or non-profit and you’d like to partner with us, please reach out. We are always looking for ways to support community organizations through research, policy support, and restorative/transformative data science.\n\n\nStudent Researchers\nIf you’re a current or incoming Smith student, please reach out to learn about working with us. We’re especially interested in students with the following interests / majors.\n\nprogramming / computer science major\ndata science / SDS or math major\ntranslation / Spanish major\nvisual designer or cartoonist / art major\nwriting / English major\n\nEmail Nikko with your CV."
   }
 ]

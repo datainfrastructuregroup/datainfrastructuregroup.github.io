@@ -1,0 +1,26 @@
+---
+title: "Work With Us"
+image: profile.jpg
+
+title-block-banner: true
+---
+
+### Community Organizations
+
+If you are a community organization or non-profit and you'd like to partner with us, please reach out. We are always looking for ways to support community organizations through research, policy support, and restorative/transformative data science.
+
+### Student Researchers
+
+If you're a current or incoming Smith student, please reach out to learn about working with us. We're especially interested in students with the following interests / majors.
+
+-   programming / computer science major
+
+-   data science / SDS or math major
+
+-   translation / Spanish major
+
+-   visual designer or cartoonist / art major
+
+-   writing / English major
+
+Email [Nikko](mailto:%20nstevens@smith.edu) with your CV.

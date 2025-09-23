@@ -1,0 +1,35 @@
+{
+  "title": "Data Infrastructure Group (DIG)",
+  "tagline": "Academic research on data infrastructure, systems, and society.",
+  "nav": [
+    { "key": "home", "title": "Home", "url": "/" },
+    { "key": "team", "title": "Research Team", "url": "/team/" },
+    { "key": "blog", "title": "Blog / News", "url": "/blog/" },
+    { "key": "resources", "title": "Resources", "url": "/resources/" },
+    { 
+      "key": "contact", 
+      "title": "Get Involved", 
+      "url": "/get-involved/",
+      "subpages": [
+        { "title": "Contact Us", "url": "/get-involved/" },
+        { "title": "Collaborators", "url": "/get-involved/collaborators/" },
+        { "title": "Student Hiring", "url": "/get-involved/student-hiring/" }
+      ]
+    }
+  ],
+  "social": {
+    "github": "https://github.com/" 
+  },
+  "plausibleDomain": "",
+  "theme": {
+    "primary": "#0d47a1",
+    "secondary": "#455a64"
+  },
+  "icons": {
+    "research": "bi-bezier2",
+    "event": "bi-calendar-event",
+    "publication": "bi-journal-text",
+    "news": "bi-megaphone",
+    "link": "bi-link-45deg"
+  }
+}

@@ -1,0 +1,27 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title }}</title>
+    <description>{{ site.tagline }}</description>
+    <link>{{ site.url or "https://dig.example.edu" }}</link>
+    <atom:link href="{{ site.url or "https://dig.example.edu" }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>{{ collections.posts[0].date | date("ddd, dd MMM yyyy HH:mm:ss ZZZ") }}</lastBuildDate>
+    <generator>Eleventy</generator>
+    
+    {% for post in collections.posts | slice(0, 20) %}
+    <item>
+      <title>{{ post.data.title | escape }}</title>
+      <description>{{ post.data.excerpt | escape }}</description>
+      <link>{{ site.url or "https://dig.example.edu" }}{{ post.url }}</link>
+      <guid>{{ site.url or "https://dig.example.edu" }}{{ post.url }}</guid>
+      <pubDate>{{ post.date | date("ddd, dd MMM yyyy HH:mm:ss ZZZ") }}</pubDate>
+      <category>{{ post.data.category }}</category>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

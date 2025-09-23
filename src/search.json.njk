@@ -1,0 +1,24 @@
+---
+permalink: "/search.json"
+---
+[{% for post in collections.posts %}
+  {
+    "type": "post",
+    "title": {{ post.data.title | dump }},
+    "url": {{ post.url | dump }},
+    "category": {{ post.data.category | dump }},
+    "icon": {{ (site.icons[post.data.category] or 'bi-file-text') | dump }},
+    "text": {{ (post.templateContent | striptags | truncate(500, false, '')) | dump }},
+    "date": {{ post.date | date('yyyy-LL-dd') | dump }}
+  }{% if not loop.last %},{% endif %}
+{% endfor %}
+{% for s in affiliates %}{% if not loop.first or collections.posts.length %},{% endif %}
+  {
+    "type": "affiliate",
+    "name": {{ s.name | dump }},
+    "title": {{ s.name | dump }},
+    "url": "/team/",
+    "icon": "bi-people",
+    "text": {{ s.bio | dump }}
+  }{% if not loop.last %},{% endif %}
+{% endfor %}]

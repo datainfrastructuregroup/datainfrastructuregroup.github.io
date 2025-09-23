@@ -1,0 +1,43 @@
+<header class="border-bottom">
+  <nav class="navbar navbar-expand-lg bg-white" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand fw-semibold d-flex align-items-center" href="/">
+        <svg width="20" height="20" viewBox="0 0 24 24" class="me-2" style="fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;">
+          <!-- Hand-drawn style shovel -->
+          <path d="M8 2c-1 0-2 1-2 2v2c0 1 1 2 2 2h2c1 0 2-1 2-2V4c0-1-1-2-2-2H8z"/>
+          <path d="M9 8v10"/>
+          <path d="M7 18l4 4 4-4"/>
+          <path d="M5 16l8 6 8-6"/>
+        </svg>
+        DIG
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          {% for item in site.nav %}
+            {% if item.key != 'home' %}
+              {% if item.subpages %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{{ item.url }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ item.title }}
+                </a>
+                <ul class="dropdown-menu">
+                  {% for subpage in item.subpages %}
+                  <li><a class="dropdown-item" href="{{ subpage.url }}">{{ subpage.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+              {% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+              </li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

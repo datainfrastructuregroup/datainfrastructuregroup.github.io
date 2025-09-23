@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Alex Johnson",
+    "photo": "/assets/img/students/alex.jpg",
+    "bio": "Undergraduate researcher focusing on data pipelines and reproducibility.",
+    "years": "2024–2025",
+    "active": true
+  },
+  {
+    "name": "Maria Gomez",
+    "photo": "/assets/img/students/maria.jpg",
+    "bio": "Worked on privacy-preserving analytics for public datasets.",
+    "years": "2023–2024",
+    "active": false
+  }
+]

@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+<article class="blog-post" aria-labelledby="post-title">
+  <header class="mb-3">
+    <h1 id="post-title" class="h2">{{ title }}</h1>
+    <p class="text-secondary mb-1">
+      <time datetime="{{ page.date | date('yyyy-LL-dd') }}">{{ page.date | date("MMMM d, yyyy") }}</time>
+      {% if category %}
+      · <span class="badge text-bg-light"><i class="bi {{ site.icons[category] or 'bi-file-text' }} me-1" aria-hidden="true"></i>{{ category }}</span>
+      {% endif %}
+    </p>
+  </header>
+  <div class="content">
+    {{ content | safe }}
+  </div>
+</article>

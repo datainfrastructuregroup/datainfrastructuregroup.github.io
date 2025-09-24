@@ -1,0 +1,95 @@
+---
+layout: layouts/base.njk
+---
+<main class="container my-4">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/projects/">Projects</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ title }}</li>
+    </ol>
+  </nav>
+
+  <header class="mb-4">
+    <div class="d-flex flex-wrap gap-1 mb-2">
+      {% for tag in tags %}
+      <span class="badge text-bg-secondary">
+        <i class="bi {{ site.projectTags[tag] or 'bi-tag' }} me-1" aria-hidden="true"></i>{{ tag }}
+      </span>
+      {% endfor %}
+    </div>
+    <h1 class="display-5 mb-2">{{ title }}</h1>
+    {% if lead %}<p class="lead text-secondary">{{ lead }}</p>{% endif %}
+    
+    <div class="row g-3 mt-3">
+      {% if year %}
+      <div class="col-auto">
+        <strong>Timeline:</strong> {{ year }}
+      </div>
+      {% endif %}
+      {% if status %}
+      <div class="col-auto">
+        <strong>Status:</strong> 
+        {% if status == 'active' %}
+        <span class="badge text-bg-success">Active</span>
+        {% else %}
+        <span class="badge text-bg-secondary">{{ status | title }}</span>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="row g-4">
+    <div class="col-lg-8">
+      <article class="content">
+        {{ content | safe }}
+      </article>
+    </div>
+    
+    <div class="col-lg-4">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="h6 mb-0">Project Details</h2>
+        </div>
+        <div class="card-body">
+          {% if collaborators %}
+          <div class="mb-3">
+            <strong>Collaborators:</strong>
+            <ul class="list-unstyled mt-1">
+              {% for collab in collaborators %}
+              <li class="small">{{ collab }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          
+          {% if publications %}
+          <div class="mb-3">
+            <strong>Publications:</strong>
+            <ul class="list-unstyled mt-1">
+              {% for pub in publications %}
+              <li class="small">{{ pub }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          
+          {% if github %}
+          <div>
+            <a href="{{ github }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">
+              <i class="bi bi-github me-1" aria-hidden="true"></i>View Code
+            </a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="mt-5">
+    <a href="/projects/" class="btn btn-outline-secondary">
+      <i class="bi bi-arrow-left me-1" aria-hidden="true"></i>Back to Projects
+    </a>
+  </div>
+</main>

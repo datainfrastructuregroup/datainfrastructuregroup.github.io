@@ -1,21 +1,30 @@
 ---
 layout: layouts/page.njk
 permalink: "/get-involved/student-hiring/"
-pageHeader: Student Hiring
-lead: Opportunities for undergraduate and graduate students to join our research group.
+pageHeader: Research Opportunities
+lead: We're hiring!
 ---
 <h2 class="h5">Current Openings</h2>
 <p>
-  We are always looking for motivated students interested in data infrastructure research. Check back regularly for new opportunities.
+  DIG is currently hiring Smith students for the 2025-2026 academic year. 
 </p>
 
-<h2 class="h5 mt-4">What We Look For</h2>
+<h2 class="h5 mt-4">If you are</h2>
 <ul>
-  <li>Strong interest in data systems and infrastructure</li>
-  <li>Programming experience (any language)</li>
-  <li>Curiosity about the social and ethical dimensions of data</li>
-  <li>Collaborative mindset and good communication skills</li>
+  <li>curious about how data shapes the world</li>
+  <li>interested in building or taking apart software systems</li>
+  <li>eager to do community-engaged research</li>
+  <li>ready to build your professional and academic portfolio</li>
 </ul>
+
+... then you might be a good fit for the lab! 
+
+We're currently seeking students with either strong computational skills or strong writing and research skills.  
+
+Our computational projects use Python, SQL, and frequently a modern Javascript library (or framework like Nodejs).  Our research projects involve extensive reading, writing, and qualitative analysis of original documents.  
+
+In all cases, students will have ample opportunity publish or present their work. 
+
 
 <h2 class="h5 mt-4">How to Apply</h2>
 <p>

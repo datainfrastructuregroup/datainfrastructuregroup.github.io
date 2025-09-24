@@ -1,9 +1,10 @@
 {
-  "title": "Data Infrastructure Group (DIG)",
-  "tagline": "Academic research on data infrastructure, systems, and society.",
+  "title": "Data Infrastructure Group",
+  "tagline": "DIG @ Smith",
   "nav": [
     { "key": "home", "title": "Home", "url": "/" },
     { "key": "team", "title": "Research Team", "url": "/team/" },
+    { "key": "projects", "title": "Projects", "url": "/projects/" },
     { "key": "blog", "title": "Blog / News", "url": "/blog/" },
     { "key": "resources", "title": "Resources", "url": "/resources/" },
     { 
@@ -18,7 +19,7 @@
     }
   ],
   "social": {
-    "github": "https://github.com/" 
+    "github": "https://github.com/datainfrastructuregroup" 
   },
   "plausibleDomain": "",
   "theme": {
@@ -31,5 +32,13 @@
     "publication": "bi-journal-text",
     "news": "bi-megaphone",
     "link": "bi-link-45deg"
+  },
+  "projectTags": {
+    "computational": "bi-cpu",
+    "qualitative": "bi-chat-quote",
+    "both": "bi-diagram-3",
+    "collaborative": "bi-people",
+    "policy": "bi-building",
+    "technical": "bi-gear"
   }
 }

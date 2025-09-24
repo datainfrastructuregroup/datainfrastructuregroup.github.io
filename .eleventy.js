@@ -15,6 +15,11 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob("src/blog/posts/**/*.md").sort((a,b) => b.date - a.date);
   });
 
+  // Collections: projects
+  eleventyConfig.addCollection("projects", (collection) => {
+    return collection.getFilteredByGlob("src/projects/**/*.md");
+  });
+
   // Shortcode: year
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 

@@ -30,3 +30,12 @@ body {
   background-color: var(--bs-primary);
   color: white;
 }
+
+/* Social media icons styling */
+.social-links a i {
+  color: #6c757d !important;
+}
+
+.social-links a:hover i {
+  color: var(--bs-primary) !important;
+}

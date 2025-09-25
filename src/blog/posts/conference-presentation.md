@@ -1,24 +1,11 @@
 ---
 layout: layouts/post.njk
-title: "Presenting at CHI 2025: Community-Driven Data Governance"
+title: "Conference: AI. Culture. Democracy. Now. How the humanities can lead in a time of crisis.” "
 category: event
-excerpt: Our paper on participatory data governance frameworks was accepted to CHI 2025.
+excerpt: Nikko joined a conversation of interdisciplinary scholars on the future of AI, culture, democracy, and the humanities.
 date: 2025-09-15
 permalink: "/blog/{{ page.fileSlug }}/"
 ---
 
-Excited to share that our paper "Beyond Consent: Toward Community-Driven Data Governance in Sociotechnical Systems" has been accepted to CHI 2025!
+Nikko spent the last weekend in Atlanta, back at Georgia Tech for the "AI. Culture. Democracy. Now. How the humanities can lead in a time of crisis.” conference.  The conference was hosted by Lauren Klein, Andre Brock, Carl DiSalvo and the rest of the [AIAI Network](https://www.aiai.network). 
 
-## Abstract
-
-Current data governance models rely heavily on individual consent mechanisms that fail to account for collective impacts and community values. We present a framework for community-driven data governance that centers collective decision-making and ongoing accountability.
-
-## Key Contributions
-
-- A participatory design methodology for developing community data governance protocols
-- Case studies from three community partnerships
-- Design principles for tools that support collective data stewardship
-
-The presentation will be on **May 15th at 2:30 PM** in the "Data and Society" session. Looking forward to the discussions and feedback from the CHI community.
-
-*Pre-print available soon on our publications page.*

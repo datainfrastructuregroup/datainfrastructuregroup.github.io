@@ -6,14 +6,12 @@
     { "key": "team", "title": "Research Team", "url": "/team/" },
     { "key": "projects", "title": "Projects", "url": "/projects/" },
     { "key": "blog", "title": "Blog / News", "url": "/blog/" },
-    { "key": "resources", "title": "Resources", "url": "/resources/" },
     { 
       "key": "contact", 
       "title": "Get Involved", 
       "url": "/get-involved/",
       "subpages": [
         { "title": "Contact Us", "url": "/get-involved/" },
-        { "title": "Collaborators", "url": "/get-involved/collaborators/" },
         { "title": "Student Hiring", "url": "/get-involved/student-hiring/" }
       ]
     }
@@ -36,7 +34,6 @@
   "projectTags": {
     "computational": "bi-cpu",
     "qualitative": "bi-chat-quote",
-    "both": "bi-diagram-3",
     "collaborative": "bi-people",
     "policy": "bi-building",
     "technical": "bi-gear"

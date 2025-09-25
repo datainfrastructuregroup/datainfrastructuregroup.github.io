@@ -6,7 +6,7 @@ lead: We're hiring!
 ---
 <h2 class="h5">Current Openings</h2>
 <p>
-  DIG is currently hiring Smith students for the 2025-2026 academic year. 
+  DIG is currently hiring Smith students for the 2025-2026 academic year for both our computational and our qualitative projects. 
 </p>
 
 <h2 class="h5 mt-4">If you are</h2>
@@ -28,5 +28,5 @@ In all cases, students will have ample opportunity publish or present their work
 
 <h2 class="h5 mt-4">How to Apply</h2>
 <p>
-  Send an email with your CV, a brief statement of interest, and any relevant coursework or projects to <a href="mailto:pi@example.edu">pi@example.edu</a>.
+  Send an email with your CV, a brief statement of interest, and any relevant coursework or projects to <a href="mailto:pi@example.edu">nstevens@smith.edu</a>.
 </p>

@@ -20,24 +20,6 @@ layout: layouts/base.njk
     </div>
     <h1 class="display-5 mb-2">{{ title }}</h1>
     {% if lead %}<p class="lead text-secondary">{{ lead }}</p>{% endif %}
-    
-    <div class="row g-3 mt-3">
-      {% if year %}
-      <div class="col-auto">
-        <strong>Timeline:</strong> {{ year }}
-      </div>
-      {% endif %}
-      {% if status %}
-      <div class="col-auto">
-        <strong>Status:</strong> 
-        {% if status == 'active' %}
-        <span class="badge text-bg-success">Active</span>
-        {% else %}
-        <span class="badge text-bg-secondary">{{ status | title }}</span>
-        {% endif %}
-      </div>
-      {% endif %}
-    </div>
   </header>
 
   <div class="row g-4">
@@ -53,12 +35,40 @@ layout: layouts/base.njk
           <h2 class="h6 mb-0">Project Details</h2>
         </div>
         <div class="card-body">
+          {% if status %}
+          <div class="mb-3">
+            <strong>Status:</strong>
+            <div class="mt-1">
+              {% if status == 'active' %}
+              <span class="badge text-bg-success">Active</span>
+              {% else %}
+              <span class="badge text-bg-secondary">{{ status | title }}</span>
+              {% endif %}
+            </div>
+          </div>
+          {% endif %}
+          
+          {% if year %}
+          <div class="mb-3">
+            <strong>Timeline:</strong>
+            <div class="small mt-1">{{ year }}</div>
+          </div>
+          {% endif %}
+          
           {% if collaborators %}
           <div class="mb-3">
             <strong>Collaborators:</strong>
             <ul class="list-unstyled mt-1">
               {% for collab in collaborators %}
-              <li class="small">{{ collab }}</li>
+              <li class="small">
+                {% if collab.url %}
+                  <a href="{{ collab.url }}" target="_blank" rel="noopener" class="text-decoration-none">
+                    {{ collab.name }} <i class="bi bi-box-arrow-up-right ms-1" aria-hidden="true"></i>
+                  </a>
+                {% else %}
+                  {{ collab.name or collab }}
+                {% endif %}
+              </li>
               {% endfor %}
             </ul>
           </div>

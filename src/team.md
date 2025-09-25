@@ -1,44 +1,52 @@
 ---
 layout: layouts/page.njk
 pageHeader: Research Team
-lead: Meet the PI and our undergraduate affiliates.
+lead: 
 ---
 <section class="mb-5">
   <div class="row g-4 align-items-start">
     <div class="col-md-3">
-      <img src="/assets/img/pi.jpg" alt="Principal Investigator headshot" class="img-fluid rounded">
+      <img src="/assets/img/Stevens-headshot.JPG" alt="Principal Investigator headshot" class="img-fluid rounded">
     </div>
     <div class="col-md-9">
-      <h2 class="h4">Name Surname</h2>
+      <h2 class="h4">Nikko Stevens</h2>
       <p>
-        Short professional biography goes here. Education, research areas, and achievements. This is placeholder text; replace with actual content.
+        Nikko Stevens is a critical technology researcher, open source software engineer, and community organizer. Stevens studies the ways that data infrastructures--data models, databases, data structures--can reinforce existing social inequality, and, crucially, how we can use data infrastructures to co-create worlds we wish to build. Prior to taking a PhD in Science and Technology Studies, Stevens was a technical architect of web properties for billion-dollar corporations like Coca-Cola, Sony, and Instagram. As a community organizer, Stevens's work in the Drupal community earned them the Aaron Winborn Award and recognitions by Red Hat and The Linux Foundation. At Smith, they are an <a href="https://www.smith.edu/people/nikko-stevens">assistant professor of Statistical and Data Sciences</a> with former appointments at MIT and Dartmouth. Their current book project, <i>Abolitionist Engineering</i >, connects data infrastructure, software engineering, and movements for social transformation.
       </p>
-      <p>
-        <strong>Contact:</strong> <a href="mailto:pi@example.edu">pi@example.edu</a>
-      </p>
-      <h3 class="h5 mt-4">Selected Publications</h3>
-      <ul>
-        <li>Publication 1 (Year). <em>Venue</em>.</li>
-        <li>Publication 2 (Year). <em>Venue</em>.</li>
-      </ul>
-      <p class="mt-3">
-        <a class="btn btn-outline-primary" href="/assets/cv/pi-cv.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-text me-2" aria-hidden="true"></i>Download CV</a>
-      </p>
+      <div class="mt-3">
+        <p class="mb-2">
+          <strong>Contact:</strong> <a href="mailto:nstevens@smith.edu">nstevens@smith.edu</a>
+        </p>
+        <div class="d-flex flex-wrap gap-3 social-links">
+          <a href="https://nikkostevens.com" class="text-decoration-none" target="_blank" rel="noopener" aria-label="Personal Website">
+            <i class="bi bi-globe me-1" aria-hidden="true"></i>Website
+          </a>
+          <a href="https://github.com/drnikko" class="text-decoration-none" target="_blank" rel="noopener" aria-label="GitHub Profile">
+            <i class="bi bi-github me-1" aria-hidden="true"></i>GitHub
+          </a>
+          <a href="https://bsky.app/profile/drnikko.bsky.social" class="text-decoration-none" target="_blank" rel="noopener" aria-label="Bluesky Profile">
+            <i class="bi bi-cloud me-1" aria-hidden="true"></i>Bluesky
+          </a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
 <section>
   <h2 class="h4 mb-3">Student Affiliates</h2>
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+  <div class="row g-4">
     {% for s in affiliates %}
-    <div class="col">
-      <div class="card h-100 shadow-sm">
-        <img src="{{ s.photo }}" class="card-img-top" alt="Headshot of {{ s.name }}">
-        <div class="card-body">
-          <h3 class="h5 card-title mb-1">{{ s.name }}</h3>
-          <p class="text-secondary mb-2">{{ s.years }}{% if s.active %} · <span class="badge text-bg-success">Active</span>{% endif %}</p>
-          <p class="card-text">{{ s.bio }}</p>
+    <div class="col-md-6 col-lg-4">
+      <div class="d-flex align-items-start">
+        <div class="flex-shrink-0 me-3">
+          <img src="{{ s.photo }}" alt="Headshot of {{ s.name }}" class="rounded" style="width: 80px; height: 80px; object-fit: cover;">
+        </div>
+        <div class="flex-grow-1">
+          <h3 class="h6 mb-1">{{ s.name }}</h3>
+          <p class="text-secondary small mb-1">{{ s.years }}{% if s.active %} · <span class="badge text-bg-success">Active</span>{% endif %}</p>
+          <p class="small mb-0">{{ s.bio }}</p>
         </div>
       </div>
     </div>

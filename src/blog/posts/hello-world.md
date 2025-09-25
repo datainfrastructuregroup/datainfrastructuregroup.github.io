@@ -1,9 +1,14 @@
 ---
 layout: layouts/post.njk
-title: Welcome to DIG
+title: We are hiring!
 category: news
-excerpt: Launching our new website and research blog.
+excerpt: Do research with us!
 date: 2025-09-01
 permalink: "/blog/{{ page.fileSlug }}/"
 ---
-We are excited to launch the new website for the Data Infrastructure Group (DIG). Stay tuned for research updates, publications, events, and more.
+
+I'm so excited to officially launch the Data Infrastucture Group (DIG) at Smith this year.  DIG is an interdisciplinary research group that uses computational and humanistic methods to study and practice restorative and transformative data science, and we have a ton of exciting projects in the works.
+
+If you're a student looking for research experience, please checkout [our openings](/get-involved/student-hiring/).
+
+We are also always looking for [community partners](get-involved/collaborators/) with whom we can build something meaningful together.  

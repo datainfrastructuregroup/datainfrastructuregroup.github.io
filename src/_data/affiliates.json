@@ -1,16 +1,16 @@
 [
   {
-    "name": "Alex Johnson",
-    "photo": "/assets/img/students/alex.jpg",
-    "bio": "Undergraduate researcher focusing on data pipelines and reproducibility.",
-    "years": "2024–2025",
+    "name": "Helen Zhou",
+    "photo": "/assets/img/students/headshot.jpg",
+    "bio": "Bio coming soon",
+    "years": "2025-2026",
     "active": true
   },
   {
-    "name": "Maria Gomez",
-    "photo": "/assets/img/students/maria.jpg",
-    "bio": "Worked on privacy-preserving analytics for public datasets.",
-    "years": "2023–2024",
-    "active": false
+    "name": "Pippa Westland",
+    "photo": "/assets/img/students/headshot.jpg",
+    "bio": "Bio coming soon",
+    "years": "2025-2026",
+    "active": true
   }
 ]

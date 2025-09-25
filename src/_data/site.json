@@ -6,15 +6,7 @@
     { "key": "team", "title": "Research Team", "url": "/team/" },
     { "key": "projects", "title": "Projects", "url": "/projects/" },
     { "key": "blog", "title": "Blog / News", "url": "/blog/" },
-    { 
-      "key": "contact", 
-      "title": "Get Involved", 
-      "url": "/get-involved/",
-      "subpages": [
-        { "title": "Contact Us", "url": "/get-involved/" },
-        { "title": "Student Hiring", "url": "/get-involved/student-hiring/" }
-      ]
-    }
+    { "key": "hiring", "title": "Student Hiring", "url": "/get-involved/student-hiring/" }
   ],
   "social": {
     "github": "https://github.com/datainfrastructuregroup" 

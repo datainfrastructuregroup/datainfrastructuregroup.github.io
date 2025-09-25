@@ -28,5 +28,5 @@ In all cases, students will have ample opportunity publish or present their work
 
 <h2 class="h5 mt-4">How to Apply</h2>
 <p>
-  Send an email with your CV, a brief statement of interest, and any relevant coursework or projects to <a href="mailto:pi@example.edu">nstevens@smith.edu</a>.
+  Fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSec0ofJGAwdRUwy17jYrD5Qf5oTPGnJaLGRKfjkga3RwbgByg/viewform?usp=header">interest form</a> to start the process! 
 </p>

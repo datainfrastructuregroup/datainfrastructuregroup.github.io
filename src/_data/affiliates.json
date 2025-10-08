@@ -2,7 +2,7 @@
   {
     "name": "Helen Zhou",
     "photo": "/assets/img/students/headshot.jpg",
-    "bio": "Bio coming soon",
+    "bio": "Hello everyone! I am a sophomore majoring in SDS and Sociology. I use she/her pronouns. It's so nice to meet you all!",
     "years": "2025-2026",
     "active": true
   },
@@ -12,12 +12,12 @@
     "bio": "Bio coming soon",
     "years": "2025-2026",
     "active": true
-  }
+  },
   {
     "name": "Radiah Khan",
     "photo": "/assets/img/students/headshot.jpg",
     "bio": "Hi everyone! I am currently a sophomore double majoring in Statistical and Data Sciences and Quantitative Economics here at Smith College. I am born and raised in Dhaka, Bangladesh. My research interests include : social media usage around the world, AI, and understanding social issues through computation.",
     "years": "2025-2026",
     "active": true
-  },
+  }
 ]

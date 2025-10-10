@@ -19,5 +19,12 @@
     "bio": "Hi everyone! I am currently a sophomore double majoring in Statistical and Data Sciences and Quantitative Economics here at Smith College. I am born and raised in Dhaka, Bangladesh. My research interests include : social media usage around the world, AI, and understanding social issues through computation.",
     "years": "2025-2026",
     "active": true
+  },
+  {
+    "name": "Chiashi Yang",
+    "photo": "/assets/img/students/headshot.jpg",
+    "bio": "Hi, everyone! I am a sophomore majoring in Computer Science. I use she/her pronouns. I am interested in exploring ethical methods of using AI for social good.",
+    "years": "2025-2026",
+    "active": true
   }
 ]

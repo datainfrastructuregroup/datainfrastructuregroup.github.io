@@ -2,7 +2,7 @@
   {
     "name": "Helen Zhou",
     "photo": "/assets/img/students/headshot.jpg",
-    "bio": "Bio coming soon",
+    "bio": "Hello everyone! I am a sophomore majoring in SDS and Sociology. I use she/her pronouns. It's so nice to meet you all!",
     "years": "2025-2026",
     "active": true
   },
@@ -13,13 +13,25 @@
     "years": "2025-2026",
     "active": true
   },
-   {
+  {
     "name": "Radiah Khan",
     "photo": "/assets/img/students/unnamed.jpg",
     "bio": "Hi everyone, I am a current sophomore studying Statistical and Data Sciences & Quantitative Economics. I am originally from Dhaka, Bangladesh. My research interests include human behavior in social media around the places in the world, AI, computational social science. Overall combining social problems/behaviors with data science is what I am really interested in. ",
     "years": "2025-2026",
     "active": true
+  },
+  {
+    "name": "Kiara Sunil Singh",
+    "photo": "/assets/img/students/headshot.jpg",
+    "bio": "Hi everyone! I'm currently a sophomore at Smith College majoring in Computer Science and Quantitative Economics. I am originally from Utah and and inerested in open-source AI, visual analytics, and exploring how technology can empower communities.",
+    "years": "2025-2026",
+    "active": true
+  },
+  {
+    "name": "Chiashi Yang",
+    "photo": "/assets/img/students/headshot.jpg",
+    "bio": "Hi, everyone! I am a sophomore majoring in Computer Science. I use she/her pronouns. I am interested in exploring ethical methods of using AI for social good.",
+    "years": "2025-2026",
+    "active": true
   }
-  
-
 ]

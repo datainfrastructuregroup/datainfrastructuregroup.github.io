@@ -4,7 +4,7 @@ date: 2025-12-20
 layout: layouts/post.njk
 ---
 
-<h1>Student reflections</h1>
+At the end of the fall semester, I asked some DIG student researchers to share their reflections on their work with the lab.  Here are there responses:
 
 <div class="student-reflection">
   <p><strong>Name:</strong> Helen Zhou</p>

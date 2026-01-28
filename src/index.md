@@ -3,7 +3,6 @@ layout: layouts/page.njk
 pageHeader: Data Infrastructure Group
 lead: 
 ---
-<div class="blog-narrow">
 <section class="hero py-4">
   <div class="row justify-content-center">
     <div class="col-lg-10">
@@ -50,4 +49,3 @@ lead:
     </div>
   </div>
 </section>
-</div>

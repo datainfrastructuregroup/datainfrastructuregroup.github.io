@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 permalink: "/get-involved/lab-handbook/"
 pageHeader: DIG Lab Handbook
-lead: The handbook guides how we operate as a lab.
+lead: The handbook guides how we operate as a lab (work in progress).
 ---
 
 ## Mission

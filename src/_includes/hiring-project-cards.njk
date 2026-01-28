@@ -1,0 +1,18 @@
+<ul class="list-unstyled">
+  {% for project in collections.projects | reverse %}
+    {% if project.data.hiring and project.data.status == 'active' %}
+      <li class="mb-3">
+        <div class="d-flex align-items-center gap-2">
+          <a href="{{ project.url }}" class="fw-semibold text-decoration-none me-2">{{ project.data.title }}</a>
+          <div class="d-flex flex-wrap gap-1">
+            {% for tag in project.data.tags %}
+              <span class="badge text-bg-secondary small">
+                <i class="bi {{ site.projectTags[tag] or 'bi-tag' }} me-1" aria-hidden="true"></i>{{ tag }}
+              </span>
+            {% endfor %}
+          </div>
+        </div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

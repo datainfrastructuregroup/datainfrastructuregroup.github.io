@@ -4,7 +4,8 @@ title: "Open Source Artificial Intelligence for Community Technology Empowerment
 lead: "Tracing the possibilities of open source AI/ML models for community control."
 excerpt: "Tracing the possibilities of open source AI/ML models for community control."
 tags: ["qualitative", "computational"]
-status: "active"
+status: "inactive"
+hiring: false
 year: "2025-"
 collaborators: ["CS professors at other institutions"]
 publications: ["Conference proposal in preparation"]

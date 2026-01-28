@@ -17,7 +17,7 @@ lead: We're hiring!
   <li>ready to build your professional and academic portfolio</li>
 </ul>
 
-... then you might be a good fit for the lab! 
+...then you might be a good fit for the lab! 
 
 We're currently seeking students with either strong computational skills or strong writing and research skills.  
 
@@ -26,7 +26,11 @@ Our computational projects use Python, SQL, and frequently a modern Javascript l
 In all cases, students will have ample opportunity publish or present their work. 
 
 
+
 <h2 class="h5 mt-4">How to Apply</h2>
 <p>
   Fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSec0ofJGAwdRUwy17jYrD5Qf5oTPGnJaLGRKfjkga3RwbgByg/viewform?usp=header">interest form</a> to start the process! 
 </p>
+
+<h2 class="h5 mt-5">Projects Actively Hiring</h2>
+{% include "hiring-project-cards.njk" %}

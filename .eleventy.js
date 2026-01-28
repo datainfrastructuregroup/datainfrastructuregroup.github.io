@@ -29,6 +29,36 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(d).setZone("utc").toFormat(format);
   });
 
+ // trying to get project listing working
+   eleventyConfig.addNunjucksFilter("renderProjectCards", function(projects) {
+    return projects
+      .filter(project => project.data.hiring && project.data.status === 'active')
+      .reverse()
+      .map(project => `
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body py-3">
+              <div class="d-flex flex-wrap gap-1 mb-2">
+                ${project.data.tags.map(tag => `
+                  <span class="badge text-bg-secondary">
+                    <i class="bi ${this.ctx.site.projectTags[tag] || 'bi-tag'} me-1" aria-hidden="true"></i>${tag}
+                  </span>
+                `).join('')}
+              </div>
+              <h3 class="h6 card-title mb-1">
+                <a href="${project.url}" class="text-decoration-none stretched-link">${project.data.title}</a>
+              </h3>
+              ${project.data.excerpt ? `
+                <p class="card-text small text-secondary mb-0">${project.data.excerpt}</p>
+              ` : ''}
+            </div>
+          </div>
+        </div>
+      `).join('');
+  });
+
+
+
   // Data deep merge
   eleventyConfig.setDataDeepMerge(true);
 

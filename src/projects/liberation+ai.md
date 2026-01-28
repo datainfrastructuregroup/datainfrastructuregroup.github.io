@@ -5,6 +5,7 @@ lead: "A multidisciplinary, multi-institutional think tank exploring the interse
 excerpt: "A multidisciplinary, multi-institutional think tank exploring the intersections of liberation and AI."
 tags: ["qualitative", "collaborative"]
 status: "active"
+hiring: true
 year: "2024-"
 collaborators: ["Catherine, D'Ingazio,Data + Feminism Lab, MIT"]
 publications: ["FAccT paper (in preparation)"]

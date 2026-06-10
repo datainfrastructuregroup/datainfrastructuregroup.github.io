@@ -4,7 +4,7 @@
   "private": true,
   "description": "Data Infrastructure Group (DIG) website built with Eleventy",
   "scripts": {
-    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve --port=8181",
     "build": "ELEVENTY_ENV=production npx @11ty/eleventy"
   },
   "devDependencies": {

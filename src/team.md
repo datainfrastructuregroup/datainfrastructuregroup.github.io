@@ -36,20 +36,29 @@ lead:
 
 <section>
   <h2 class="h4 mb-3">Student Affiliates</h2>
-  <div class="row g-4">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
     {% for s in affiliates %}
-    <div class="col-md-6 col-lg-4">
-      <div class="d-flex align-items-start">
-        <div class="flex-shrink-0 me-3">
-          <img src="{{ s.photo }}" alt="Headshot of {{ s.name }}" class="rounded" style="width: 80px; height: 80px; object-fit: cover;">
-        </div>
-        <div class="flex-grow-1">
-          <h3 class="h6 mb-1">{{ s.name }}</h3>
-          <p class="text-secondary small mb-1">{{ s.years }}{% if s.active %} · <span class="badge text-bg-success">Active</span>{% endif %}</p>
-          <p class="small mb-0">{{ s.bio }}</p>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="d-flex align-items-start mb-3">
+              <img src="{{ s.photo }}" alt="Headshot of {{ s.name }}"
+                   class="rounded me-3" style="width: 60px; height: 60px; object-fit: cover;">
+              <div>
+                <h3 class="h6 mb-1">{{ s.name }}</h3>
+                <p class="text-primary small mb-1">{{ s.title }}</p>
+                <p class="text-secondary small mb-1">
+                  {{ s.years }}
+                  {% if s.active %}
+                    · <span class="badge text-bg-success">Active</span>
+                  {% endif %}
+                </p>
+              </div>
+            </div>
+            <p class="small mb-0">{{ s.bio }}</p>
+          </div>
         </div>
       </div>
-    </div>
     {% endfor %}
   </div>
 </section>

@@ -41,6 +41,7 @@ day_order = {"MONDAY": 0,
              "FRIDAY": 4, 
              "SATURDAY": 5, 
              "SUNDAY": 6}
+```
 
 This allowed Python to sort tasks in day order based on numbers, instead of words. 
 
@@ -81,6 +82,7 @@ def convertTime(time_str: str) -> int:
       hour = 0
 
    return (hour * 60 + minute) # number of hours * 60 minutes + number of minutes
+```
 
 Once day and time had numerical values, I was able to have my program sort tasks, chronologically. 
 

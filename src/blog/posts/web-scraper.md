@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: "Collecting Data In Bulk Using Web Scraper"
 category: research
 excerpt: This post describes how I turned address information from the Federal Bureau of Prisons website into a usable dataset by collecting facility links, scraping address details, cleaning missing entries, and converting the final results into geocoded data for analysis.
-date: 2025-07-09
+date: 2026-07-09
 permalink: "/blog/{{ page.fileSlug }}/"
 ---
 

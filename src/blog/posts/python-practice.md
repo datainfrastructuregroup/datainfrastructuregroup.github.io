@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk 
 title: "The How-To of how I Made a To-Do List"
-category: coding practice
+category: news
 excerpt: "In this blog post, I reflect on the process of creating a small to-do list program in Python."
 date: 2026-07-11
 permalink: "/blog/{{ page.fileSlug }}/"

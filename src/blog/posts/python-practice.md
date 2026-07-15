@@ -5,6 +5,7 @@ category: news
 excerpt: "In this blog post, I reflect on the process of creating a small to-do list program in Python."
 date: 2026-07-11
 permalink: "/blog/{{ page.fileSlug }}/"
+author: Kiersten Conley
 ---
 
 In this blog post, I reflect on my experience constructing a small weekly to-do list program in Python, and how the project helped me to relearn and practice the programming language through problem solving and experimentation.  

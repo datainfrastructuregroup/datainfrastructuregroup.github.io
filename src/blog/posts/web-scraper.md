@@ -7,8 +7,6 @@ date: 2025-07-09
 permalink: "/blog/{{ page.fileSlug }}/"
 ---
 
-_Yuzhang Fu, June 2026_
-
 This post will introduce how I used a web scraper from a Chrome extension to collect links and extract addresses from the Federal Bureau of Prisons website. Afterwards, the data was cleaned, validated, and turned into a usable dataset for our project in which we are building a big data pipeline.
 
 When I looked for datasets for class projects in the past, they were often easily available: either I go to websites like [Kaggle.com](http://Kaggle.com), or the professor provides links where data can be downloaded in a second. However, getting data in the real world is a bit more challenging. In this project, my task was to look for datasets under specific topics, where data is not always available in a ready-to-use format.

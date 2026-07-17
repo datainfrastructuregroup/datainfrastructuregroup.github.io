@@ -29,7 +29,7 @@ This project is a scoping review of carceral technologies in the academic litera
 
 ## Methodology
 
-#### Systematic Review
-This project is a systematic literature review of papers describing the idea of "carceral technology"
+#### Scoping Review
+This project is a scoping literature review of papers describing the idea of "carceral technology"
 
 

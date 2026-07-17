@@ -4,9 +4,9 @@ title: "Mapping Data Centers"
 lead: "Looking at historical, demographic, and environmental factors related to data center siting."
 excerpt: "Looking at historical, demographic, and environmental factors related to data center siting"
 tags: ["quantitative", "collaborative"]
-status: "active"
-hiring: true
-year: "2026-"
+status: "complete"
+hiring: false
+year: "2026-2026"
 collaborators:   
   - name: "Spatial Analysis Lab, Smith College"
     url: "https://www.science.smith.edu/sal/"
@@ -22,3 +22,5 @@ The current proliferation of generative AI evoke questions in several important 
 - the environmental impact of AI development (data capture, model training/fine tuning/benchmarking) and use, including data center siting, energy and water consumption, and material resource consumption
 - the replication of historical inequities, demonstrated through data center siting and patterns of resource extraction, and labor exploitation
 
+## Outputs
+This project was presented at Smith College's Collaborations event in Spring 2026.  Another iteration of this work will start in Fall 2026 with the Lifecycle of a Generative AI Query project. 

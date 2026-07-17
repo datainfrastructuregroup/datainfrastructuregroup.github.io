@@ -23,6 +23,7 @@ Even this smaller project had its own challenges. I had to relearn Python while 
 **How Does the Program Work for the User?**
 
 Before I walk through my process, I wanted to give a brief overview of what the program actually does. Once the program is run, it gives the user four options, to “Add Task”, “Remove Task”, “View Tasks”, or “Quit”. If a user selects “Add Task”, they are then prompted to input a day, time, category, and description for a new task that will be added to the to-do list. If they select “Remove Task”, all of the tasks will be listed in numerical order, chronologically by day and time. The user then selects the task number they want to remove, and that task is removed. If the user selects “View Tasks”, the tasks are written out in numerical order, chronologically. If they choose to “Quit”, the program stops running. The repository for the program is available [here](https://github.com/kconley-ct/DIG_small_program).   
+
 **Why a Weekly To-Do List?**
 
 Before I wrote any code, I first had to decide what program I wanted to create. Initially, I wanted to create a program that resulted in something like Google Calendar. After more consideration, I realized that creating a full scale calendar was likely beyond my current skill level and was certainly beyond the task I was assigned of creating a simple program. Features such as recurring events, notifications, and drop-down menus were just a little much for what this assignment was. 

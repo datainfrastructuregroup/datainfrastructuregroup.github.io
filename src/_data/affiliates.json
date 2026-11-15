@@ -54,5 +54,13 @@
     "bio": "Hi everyone! I'm currently a sophomore at Smith College majoring in Computer Science and Quantitative Economics. I am originally from Edmonton, Canada and and inerested in abolition and using tech for good.", 
     "years": "2025-2026",
     "active": true
+  }, 
+  {
+    "title": "Research Assistant", 
+    "name": "Kiersten Conley", 
+    "photo": "/assets/img/students/kiersten.jpg", 
+    "bio": "Hi everyone! I am a soon-to-be senior at Smith College majoring in Statistical & Data Sciences and Psychology. I am interested in applying data science methods to social science research, particularly in understanding the societal implications of emerging technologies.", 
+    "years": "2026-Present", 
+    "active": true
   }
 ]
